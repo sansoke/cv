@@ -7,20 +7,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const sections = document.querySelectorAll("section");
-        function fadeInSections() {
-            sections.forEach(sec => {
-                if (sec.getBoundingClientRect().top < window.innerHeight - 50) {
-                    sec.classList.add("show");
-                }
-            });
-        }
-        window.addEventListener("scroll", fadeInSections);
-        fadeInSections();
-    });
-    </script>
     
 <body>
     <img src="profile_image.JPG" alt="Jeanho Kim" width="200">
@@ -71,5 +57,19 @@
         <h2>Contact</h2>
         <p>Email: jeanho20@gmail.com</p>
     </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll("section");
+            function fadeInSections() {
+                sections.forEach(sec => {
+                    if (sec.getBoundingClientRect().top < window.innerHeight - 50) {
+                        sec.classList.add("show");
+                    }
+                });
+            }
+            window.addEventListener("scroll", fadeInSections);
+            fadeInSections();
+        });
+        </script>
 </body>
 </html>
