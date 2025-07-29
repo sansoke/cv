@@ -1,11 +1,14 @@
 ---
-layout: post
-title: "My First Blog"
-date: 2025-07-14
+layout: default
+title: Blog
 ---
 
-This is my first blog post! I’ll write about what I studied today.
+<h1>Blog Posts</h1>
 
-- Learned about GitHub Pages
-- Added blog functionality
-- 🚀 It works!
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>
