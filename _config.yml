@@ -1,0 +1,3 @@
+title: Jeanho Kim CV
+baseurl: "/cv"         
+permalink: /:categories/:year/:month/:day/:title.html
