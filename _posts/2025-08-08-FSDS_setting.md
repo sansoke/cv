@@ -16,3 +16,5 @@ terminal 2: go to "Formula-Student-Driverless-Simulator/ros" directory and run t
             roslaunch fsds_ros_bridge fsds_ros_bridge.launch
 terminal 3: go to "Formula-Student-Driverless-Simulator/ros" directory and run the following
             roslaunch fsds_ros_bridge rviz.launch
+
+When refreshing the settings refresh the rosbridge terminal first!
