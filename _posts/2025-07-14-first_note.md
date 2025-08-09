@@ -4,13 +4,13 @@ title: "WSL Ubuntu"
 date: 2025-07-14
 ---
 
-- WSL2 Ubuntu 22.04 
+- WSL2 Ubuntu 22.04 (MLCS intern, 만도대회)
 1. conda
 2. acados
 3. arduino
 4. ros2 humble
 5. FORCE_PRO solver
 
-- WSL2 Ubuntu 20.04
+- WSL2 Ubuntu 20.04 (포뮬러원 대회)
 1. ip address connected to windows for fsds simulator
 2. ros1 noetic
