@@ -9,6 +9,7 @@ date: 2025-07-14
 2. acados
 3. arduino
 4. ros2 humble
+5. FORCE_PRO solver
 
 - WSL2 Ubuntu 20.04
 1. ip address connected to windows for fsds simulator
