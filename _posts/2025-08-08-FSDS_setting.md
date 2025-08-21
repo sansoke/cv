@@ -16,3 +16,7 @@ date: 2025-08-07
             - roslaunch fsds_ros_bridge rviz.launch
 
 - When refreshing the settings refresh the rosbridge terminal first!
+
+Formula-Student-Driverless-Simulator/ros에서 source devel/setup.bash 매번하는 대신
+nano ~/.bashrc에서 source ~/Formula-Student-Driverless-Simulator/ros source devel/setup.bash 입렫
+sourcee ~/.bashrc 로 적용
